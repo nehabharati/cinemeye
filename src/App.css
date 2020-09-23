@@ -73,8 +73,7 @@ body {
   font-size: 0.8rem;
 }
 
-.responsive-navbar {
-  /* margin: 1em 4em;  */
+.responsive-navbar { 
   background-color: #050A15;
   text-align: center;
   width:100%; 
@@ -85,38 +84,7 @@ body {
   -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; 
 }
-
-/* .times { 
-    -webkit-animation: slide-out-left 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-            animation: slide-out-left 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-   
-} 
-
- @-webkit-keyframes slide-out-left {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: translateX(-1000px);
-            transform: translateX(-1000px);
-    opacity: 0;
-  }
-}
-@keyframes slide-out-left {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: translateX(-1000px);
-            transform: translateX(-1000px);
-    opacity: 0;
-  }
-} */
-
+ 
  
 .responsive-navbar  .title {
   display: flex;
@@ -227,7 +195,11 @@ body {
   border-radius: 10px;
   width: 80px;
   font-size: 0.8rem; 
-  
+  cursor: pointer;
+}
+
+.auth button:hover {
+  font-weight: 700;
 }
 
 .auth button:first-of-type{
@@ -273,7 +245,17 @@ body {
 
 .carousel-button {
   display: flex; 
+  cursor: pointer;
 }
+
+.carousel-button div:first-of-type:hover {
+  font-weight: 700;
+}
+
+.carousel-button div:last-of-type:hover {
+  font-weight: 700;
+}
+
 
 .carousel-button div:last-of-type{
   margin: 0 1em;
