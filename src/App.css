@@ -406,6 +406,11 @@ video {
   font-size: 0.8rem;
 }
 
+.tv-options div:hover {
+  font-weight: 700;
+  cursor: pointer;
+}
+
 .tv-description {
   width: 50%;
 }
