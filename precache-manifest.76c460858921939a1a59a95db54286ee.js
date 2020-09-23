@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aa3f6a3f0984ee4bc2193294baab50e0",
+    "revision": "e9bbc0efa65e73c62cd2b50482e0d0ef",
     "url": "/cinemeye/index.html"
   },
   {
-    "revision": "80ac5b54a3938e48c431",
-    "url": "/cinemeye/static/css/main.e5fad0ef.chunk.css"
+    "revision": "d8d4b3f8e0fd7471e105",
+    "url": "/cinemeye/static/css/main.17cfe231.chunk.css"
   },
   {
     "revision": "a9db603945e862fd9121",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cinemeye/static/js/2.09740e34.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "80ac5b54a3938e48c431",
+    "revision": "d8d4b3f8e0fd7471e105",
     "url": "/cinemeye/static/js/main.6a70bccd.chunk.js"
   },
   {

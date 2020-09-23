@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cinemeye/precache-manifest.550eaa419ab74a93d563c2e7ad202579.js"
+  "/cinemeye/precache-manifest.76c460858921939a1a59a95db54286ee.js"
 );
 
 self.addEventListener('message', (event) => {
