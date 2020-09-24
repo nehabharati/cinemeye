@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGlobeAsia, faSearch, faPlay, faStar } from '@fortawesome/free-solid-svg-icons'
-
+import { faGlobeAsia, faSearch, faPlay, faStar, faBars } from '@fortawesome/free-solid-svg-icons'
+import Sidebar from "./Sidebar"
 
 function Mainbar() {
+    const [open, setOpen] = useState(false)
+
     return (
         <div className="mainbar">
             <div className="mainbar-container">
-                <div className="search"><FontAwesomeIcon icon={faSearch} className="search-icon" /><input type="text" placeholder="Search.." /></div>
+                <div className="search">
+                    <FontAwesomeIcon icon={faSearch} className="search-icon" />
+                    <input type="text" placeholder="Search.." />
+                </div>
                 <div className="en"><FontAwesomeIcon icon={faGlobeAsia} /><span>EN</span></div>
                 <div className="auth">
                     <button>Login</button>
@@ -100,6 +105,8 @@ function Mainbar() {
                     </div>
                 </div>
             </div>
+            {console.log(open)}
+            {open && <Sidebar open={open} />}
         </div>
     );
 }

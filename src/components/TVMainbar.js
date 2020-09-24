@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGlobeAsia, faSearch, faPlay, faStar } from '@fortawesome/free-solid-svg-icons'
+import { faGlobeAsia, faSearch, faPlayCircle, faStar } from '@fortawesome/free-solid-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab, } from '@fortawesome/free-brands-svg-icons'
 import ReactPlayer from "react-player"
@@ -33,10 +33,6 @@ function TVMainbar() {
                         <li>2018</li><span>|</span>
                     </ul>
                     <h2>Westworld</h2>
-                    {/* <div className="carousel-button">
-                        <div><FontAwesomeIcon icon={faPlay} className="carousel-icons" /><span>Watch trailer</span></div>
-                        <div><FontAwesomeIcon icon={faStar} className="carousel-icons" /><span>Add to favorites</span></div>
-                    </div> */}
                     <p>The story begins in Westworld, a fictional technologically advanced Wild-West-themed amusement park
                         populated by android "hosts" </p>
 
@@ -56,8 +52,6 @@ function TVMainbar() {
             <div className="movies">
                 <div className="movie-card-container">
                     <div className="tv-card">
-                        {/* <img src={require("../images/mitty.jpg")} alt="mitty movie" /> */}
-                        {/* // Render a YouTube video player */}
                         <div className='player-wrapper'>
                             <ReactPlayer url='https://youtu.be/9BqKiZhEFFw' className='react-player' width='100%'
                                 height='100%' />
@@ -69,8 +63,8 @@ function TVMainbar() {
                         </div>
                     </div>
                     <div className="tv-options">
-                        <div><FontAwesomeIcon icon={faStar} style={{ color: "#00ced1", marginRight: "10px" }} /><span>In favorites</span></div>
-                        <div><FontAwesomeIcon icon={faPlay} style={{ marginRight: "10px" }} /><span>Watch later</span></div>
+                        <div><FontAwesomeIcon icon={faStar} style={{ color: "#4DA7AC", marginRight: "10px" }} /><span>In favorites</span></div>
+                        <div><FontAwesomeIcon icon={faPlayCircle} style={{ marginRight: "10px" }} /><span>Watch later</span></div>
                     </div>
                 </div>
                 <div className="tv-card-desc-container">
